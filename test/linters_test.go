@@ -2,7 +2,6 @@ package test
 
 import (
 	"bufio"
-	"fmt"
 	"io/ioutil"
 	"os"
 	"os/exec"
@@ -157,10 +156,7 @@ func testOneSource(t *testing.T, sourcePath string) {
 
 		cmd := exec.Command(binName, caseArgs...)
 		t.Log(caseArgs)
-		fmt.Println("======================", sourcePath)
-		if sourcePath == `testdata/paralleltest.go` {
-			runGoErrchk(cmd, []string{sourcePath}, t)
-		}
+		runGoErrchk(cmd, []string{sourcePath}, t)
 	}
 }
 
@@ -308,57 +304,3 @@ func TestTparallel(t *testing.T) {
 		testshared.NewLintRunner(t).RunWithYamlConfig(string(cfg), args...).ExpectNoIssues()
 	})
 }
-
-// func TestParallelTest(t *testing.T) {
-// var args = []string{
-// 	"--disable-all", "--print-issued-lines=false", "--print-linter-name=false", "--out-format=line-number", "--enable", "paralleltest",
-// }
-
-// t.Run("positive tests, should pass", func(t *testing.T) {
-// 	sourcePath := filepath.Join(testdataDir, "paralleltest", "happy_path_test.go")
-// 	args = append(args, sourcePath)
-// 	rc := extractRunContextFromComments(t, sourcePath)
-// 	args = append(args, rc.args...)
-
-// 	cfg, err := yaml.Marshal(rc.config)
-// 	assert.NoError(t, err)
-
-// 	testshared.NewLintRunner(t).RunWithYamlConfig(string(cfg), args...).ExpectNoIssues()
-// })
-
-// t.Run("function is missing call to parallel", func(t *testing.T) {
-// 	sourcePath := filepath.Join(testdataDir, "paralleltest", "func_missing_call_to_Parallel.go")
-// 	args := []string{
-// 		"--disable-all", "--print-issued-lines=false", "--print-linter-name=false", "--out-format=line-number", "--enable", "tparallel",
-// 		sourcePath,
-// 	}
-// 	rc := extractRunContextFromComments(t, sourcePath)
-// 	args = append(args, rc.args...)
-
-// 	cfg, err := yaml.Marshal(rc.config)
-// 	assert.NoError(t, err)
-
-// 	testshared.NewLintRunner(t).RunWithYamlConfig(string(cfg), args...).
-// 		ExpectHasIssue(
-// 			"ssss\n",
-// 		)
-// })
-
-// t.Run("should fail on missing subtest Parallel()", func(t *testing.T) {
-// 	sourcePath := filepath.Join(testdataDir, "tparallel", "missing_subtest_test.go")
-// 	args := []string{
-// 		"--disable-all", "--print-issued-lines=false", "--print-linter-name=false", "--out-format=line-number", "--enable", "tparallel",
-// 		sourcePath,
-// 	}
-// 	rc := extractRunContextFromComments(t, sourcePath)
-// 	args = append(args, rc.args...)
-
-// 	cfg, err := yaml.Marshal(rc.config)
-// 	assert.NoError(t, err)
-
-// 	testshared.NewLintRunner(t).RunWithYamlConfig(string(cfg), args...).
-// 		ExpectHasIssue(
-// 			"testdata/tparallel/missing_subtest_test.go:7:6: TestSubtests's subtests should call t.Parallel\n",
-// 		)
-// 	// })
-// }
