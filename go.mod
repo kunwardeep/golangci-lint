@@ -9,7 +9,7 @@ require (
 	github.com/bombsimon/wsl/v3 v3.1.0
 	github.com/daixiang0/gci v0.2.4
 	github.com/denis-tingajkin/go-header v0.3.1
-	github.com/fatih/color v1.9.0
+	github.com/fatih/color v1.10.0
 	github.com/go-critic/go-critic v0.5.2
 	github.com/go-xmlfmt/xmlfmt v0.0.0-20191208150333-d5b6f63a941b
 	github.com/gofrs/flock v0.8.0
@@ -29,12 +29,16 @@ require (
 	github.com/golangci/unconvert v0.0.0-20180507085042-28b1c447d1f4
 	github.com/jingyugao/rowserrcheck v0.0.0-20191204022205-72ab7603b68a
 	github.com/jirfag/go-printf-func-name v0.0.0-20191110105641-45db9963cdd3
+<<<<<<< HEAD
 	github.com/kunwardeep/paralleltest v0.0.0-20201102045442-db8265575033
 	github.com/kyoh86/exportloopref v0.1.7
+=======
+	github.com/kyoh86/exportloopref v0.1.8
+>>>>>>> master
 	github.com/maratori/testpackage v1.0.1
 	github.com/matoous/godox v0.0.0-20190911065817-5d6d842e92eb // v1.0
 	github.com/mattn/go-colorable v0.1.8
-	github.com/mbilski/exhaustivestruct v1.0.1
+	github.com/mbilski/exhaustivestruct v1.1.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/go-ps v1.0.0
 	github.com/moricho/tparallel v0.2.1
@@ -44,19 +48,19 @@ require (
 	github.com/polyfloyd/go-errorlint v0.0.0-20201006195004-351e25ade6e3
 	github.com/ryancurrah/gomodguard v1.1.0
 	github.com/ryanrolds/sqlclosecheck v0.3.0
-	github.com/securego/gosec/v2 v2.4.0
+	github.com/securego/gosec/v2 v2.5.0
 	github.com/shazow/go-diff v0.0.0-20160112020656-b6b7b6733b8c
 	github.com/shirou/gopsutil v0.0.0-20190901111213-e4ec7b275ada // v2.19.8
 	github.com/sirupsen/logrus v1.7.0
 	github.com/sonatard/noctx v0.0.1
 	github.com/sourcegraph/go-diff v0.6.1
-	github.com/spf13/cobra v1.0.1-0.20200916152758-7f8e83d9366a
+	github.com/spf13/cobra v1.1.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.7.1
 	github.com/ssgreg/nlreturn/v2 v2.1.0
 	github.com/stretchr/testify v1.6.1
 	github.com/tdakkota/asciicheck v0.0.0-20200416190851-d7f85be797a2
-	github.com/tetafro/godot v0.4.9
+	github.com/tetafro/godot v1.3.0
 	github.com/timakin/bodyclose v0.0.0-20190930140734-f7f2e9bca95e
 	github.com/tomarrell/wrapcheck v0.0.0-20200807122107-df9e8bcb914d
 	github.com/tommy-muehle/go-mnd v1.3.1-0.20200224220436-e6f9a994e8fa
@@ -67,7 +71,7 @@ require (
 	golang.org/x/sys v0.0.0-20201009025420-dfb3f7c4e634 // indirect
 	golang.org/x/tools v0.0.0-20201013201025-64a9e34f3752
 	gopkg.in/yaml.v2 v2.3.0
-	honnef.co/go/tools v0.0.1-2020.1.5
+	honnef.co/go/tools v0.0.1-2020.1.6
 	mvdan.cc/gofumpt v0.0.0-20200802201014-ab5a8192947d
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed
 	mvdan.cc/lint v0.0.0-20170908181259-adc824a0674b // indirect
