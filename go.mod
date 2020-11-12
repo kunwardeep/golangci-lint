@@ -29,12 +29,8 @@ require (
 	github.com/golangci/unconvert v0.0.0-20180507085042-28b1c447d1f4
 	github.com/jingyugao/rowserrcheck v0.0.0-20191204022205-72ab7603b68a
 	github.com/jirfag/go-printf-func-name v0.0.0-20191110105641-45db9963cdd3
-<<<<<<< HEAD
 	github.com/kunwardeep/paralleltest v0.0.0-20201102045442-db8265575033
-	github.com/kyoh86/exportloopref v0.1.7
-=======
 	github.com/kyoh86/exportloopref v0.1.8
->>>>>>> master
 	github.com/maratori/testpackage v1.0.1
 	github.com/matoous/godox v0.0.0-20190911065817-5d6d842e92eb // v1.0
 	github.com/mattn/go-colorable v0.1.8
@@ -74,6 +70,5 @@ require (
 	honnef.co/go/tools v0.0.1-2020.1.6
 	mvdan.cc/gofumpt v0.0.0-20200802201014-ab5a8192947d
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed
-	mvdan.cc/lint v0.0.0-20170908181259-adc824a0674b // indirect
 	mvdan.cc/unparam v0.0.0-20200501210554-b37ab49443f7
 )
