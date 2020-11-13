@@ -1,4 +1,4 @@
-module github.com/kunwardeep/golangci-lint
+module github.com/golangci/golangci-lint
 
 go 1.12
 
