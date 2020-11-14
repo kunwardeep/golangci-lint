@@ -5,7 +5,7 @@ package goimports
 import (
 	"fmt"
 
-	"github.com/golangci/golangci-lint/pkg/config"
+	"github.com/kunwardeep/golangci-lint/pkg/config"
 	"github.com/pkg/errors"
 )
 

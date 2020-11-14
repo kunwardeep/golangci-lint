@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/kunwardeep/golangci-lint/pkg/fsutils"
+	"github.com/kunwardeep/golangci-lint/pkg/result"
 )
 
 type PathShortener struct {

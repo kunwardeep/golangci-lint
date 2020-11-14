@@ -10,9 +10,9 @@ import (
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
 
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/sliceutil"
+	"github.com/kunwardeep/golangci-lint/pkg/fsutils"
+	"github.com/kunwardeep/golangci-lint/pkg/logutils"
+	"github.com/kunwardeep/golangci-lint/pkg/sliceutil"
 )
 
 type FileReader struct {

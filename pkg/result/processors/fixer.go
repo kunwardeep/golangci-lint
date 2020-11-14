@@ -10,11 +10,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/result"
-	"github.com/golangci/golangci-lint/pkg/timeutils"
+	"github.com/kunwardeep/golangci-lint/pkg/config"
+	"github.com/kunwardeep/golangci-lint/pkg/fsutils"
+	"github.com/kunwardeep/golangci-lint/pkg/logutils"
+	"github.com/kunwardeep/golangci-lint/pkg/result"
+	"github.com/kunwardeep/golangci-lint/pkg/timeutils"
 )
 
 type Fixer struct {

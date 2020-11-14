@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	_ "github.com/valyala/quicktemplate"
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/test/testshared"
+	"github.com/kunwardeep/golangci-lint/pkg/exitcodes"
+	"github.com/kunwardeep/golangci-lint/test/testshared"
 )
 
 func getCommonRunArgs() []string {

@@ -3,7 +3,7 @@ package golinters
 import (
 	"honnef.co/go/tools/stylecheck"
 
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/kunwardeep/golangci-lint/pkg/golinters/goanalysis"
 )
 
 func NewStylecheck() *goanalysis.Linter {

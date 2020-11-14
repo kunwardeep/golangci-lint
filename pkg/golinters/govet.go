@@ -36,8 +36,8 @@ import (
 	"golang.org/x/tools/go/analysis/passes/unsafeptr"
 	"golang.org/x/tools/go/analysis/passes/unusedresult"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/kunwardeep/golangci-lint/pkg/config"
+	"github.com/kunwardeep/golangci-lint/pkg/golinters/goanalysis"
 )
 
 var (

@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/kunwardeep/golangci-lint/pkg/exitcodes"
+	"github.com/kunwardeep/golangci-lint/pkg/logutils"
 )
 
 type LintRunner struct {

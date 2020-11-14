@@ -9,17 +9,17 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/golangci/golangci-lint/internal/errorutil"
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/goutil"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/packages"
-	"github.com/golangci/golangci-lint/pkg/result"
-	"github.com/golangci/golangci-lint/pkg/result/processors"
-	"github.com/golangci/golangci-lint/pkg/timeutils"
+	"github.com/kunwardeep/golangci-lint/internal/errorutil"
+	"github.com/kunwardeep/golangci-lint/pkg/config"
+	"github.com/kunwardeep/golangci-lint/pkg/fsutils"
+	"github.com/kunwardeep/golangci-lint/pkg/goutil"
+	"github.com/kunwardeep/golangci-lint/pkg/lint/linter"
+	"github.com/kunwardeep/golangci-lint/pkg/lint/lintersdb"
+	"github.com/kunwardeep/golangci-lint/pkg/logutils"
+	"github.com/kunwardeep/golangci-lint/pkg/packages"
+	"github.com/kunwardeep/golangci-lint/pkg/result"
+	"github.com/kunwardeep/golangci-lint/pkg/result/processors"
+	"github.com/kunwardeep/golangci-lint/pkg/timeutils"
 
 	gopackages "golang.org/x/tools/go/packages"
 )

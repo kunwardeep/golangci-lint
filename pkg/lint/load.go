@@ -14,14 +14,14 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/golangci/golangci-lint/internal/pkgcache"
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis/load"
-	"github.com/golangci/golangci-lint/pkg/goutil"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/kunwardeep/golangci-lint/internal/pkgcache"
+	"github.com/kunwardeep/golangci-lint/pkg/config"
+	"github.com/kunwardeep/golangci-lint/pkg/exitcodes"
+	"github.com/kunwardeep/golangci-lint/pkg/fsutils"
+	"github.com/kunwardeep/golangci-lint/pkg/golinters/goanalysis/load"
+	"github.com/kunwardeep/golangci-lint/pkg/goutil"
+	"github.com/kunwardeep/golangci-lint/pkg/lint/linter"
+	"github.com/kunwardeep/golangci-lint/pkg/logutils"
 )
 
 type ContextLoader struct {

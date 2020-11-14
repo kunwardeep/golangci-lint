@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/kunwardeep/golangci-lint/pkg/config"
+	"github.com/kunwardeep/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/kunwardeep/golangci-lint/pkg/lint/linter"
+	"github.com/kunwardeep/golangci-lint/pkg/logutils"
 )
 
 type EnabledSet struct {

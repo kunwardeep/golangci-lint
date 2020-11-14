@@ -3,7 +3,7 @@ package golinters
 import (
 	"honnef.co/go/tools/simple"
 
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/kunwardeep/golangci-lint/pkg/golinters/goanalysis"
 )
 
 func NewGosimple() *goanalysis.Linter {
