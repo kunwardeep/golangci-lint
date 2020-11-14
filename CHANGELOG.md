@@ -39,7 +39,7 @@ There is the most valuable changes log:
     * Move dependabot config to `.github` folder
 7. other
     * bump `lodash` from 4.17.15 to 4.17.19 in /tools
-    * bump `golangci/golangci-lint-action` from v1.2.2 to v2
+    * bump `kunwardeep/golangci-lint-action` from v1.2.2 to v2
     * bump `github.com/valyala/quicktemplate` from 1.5.0 to 1.5.1
 
 
@@ -104,7 +104,7 @@ There is the most valuable changes log:
 1. Support the newest `go vet` (with `go/analysis`)
 2. Support configuration of `go vet`: e.g. you can set print functions by `linters-settings.govet.settings.printf.funcs`
 3. Update megacheck (staticcheck) to 2019.1.1
-4. Add [information](https://github.com/golangci/golangci-lint#memory-usage-of-golangci-lint) about controlling space-time trade-off into README
+4. Add [information](https://github.com/kunwardeep/golangci-lint#memory-usage-of-golangci-lint) about controlling space-time trade-off into README
 5. Exclude issues by source code line regexp by `issues.exclude-rules[i].source`
 6. Build and test on go 1.12
 7. Support `--color` option

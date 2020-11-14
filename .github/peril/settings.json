@@ -5,7 +5,7 @@
     "env_vars": ["SLACK_WEBHOOK_URL", "GITHUB_ACCESS_TOKEN"]
   },
   "repos": {
-    "golangci/golangci-lint": {
+    "kunwardeep/golangci-lint": {
       "pull_request.closed (pull_request.merged == true)": [
         ".github/peril/rules/invite-collaborator.ts"
       ]

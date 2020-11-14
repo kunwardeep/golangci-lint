@@ -332,7 +332,7 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 		// nolintlint must be last because it looks at the results of all the previous linters for unused nolint directives
 		linter.NewConfig(golinters.NewNoLintLint()).
 			WithPresets(linter.PresetStyle).
-			WithURL("https://github.com/golangci/golangci-lint/blob/master/pkg/golinters/nolintlint/README.md"),
+			WithURL("https://github.com/kunwardeep/golangci-lint/blob/master/pkg/golinters/nolintlint/README.md"),
 	}
 
 	isLocalRun := os.Getenv("GOLANGCI_COM_RUN") == ""

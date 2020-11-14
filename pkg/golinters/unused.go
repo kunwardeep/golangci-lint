@@ -43,7 +43,7 @@ func NewUnused() *goanalysis.Linter {
 					To:   p.End.Line,
 				},
 			}
-			// See https://github.com/golangci/golangci-lint/issues/1048
+			// See https://github.com/kunwardeep/golangci-lint/issues/1048
 			// If range is invalid, this will break `--fix` mode.
 			if i.LineRange.To >= i.LineRange.From {
 				i.Replacement = &result.Replacement{

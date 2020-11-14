@@ -1,5 +1,5 @@
 //args: -Egci
-//config: linters-settings.gci.local-prefixes=github.com/golangci/golangci-lint
+//config: linters-settings.gci.local-prefixes=github.com/kunwardeep/golangci-lint
 package gci
 
 import (

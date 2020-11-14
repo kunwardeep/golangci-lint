@@ -87,6 +87,6 @@ jobs:
             SHORT_COMMIT=${{ steps.prepare.outputs.short_commit }}
             DATE=${{ steps.prepare.outputs.date }}
           tags: |
-            golangci/golangci-lint:${{ steps.prepare.outputs.full_tag_name }}
-            golangci/golangci-lint:${{ steps.prepare.outputs.full_major_tag }}
-            golangci/golangci-lint:${{ steps.prepare.outputs.latest_tag }}
+            kunwardeep/golangci-lint:${{ steps.prepare.outputs.full_tag_name }}
+            kunwardeep/golangci-lint:${{ steps.prepare.outputs.full_major_tag }}
+            kunwardeep/golangci-lint:${{ steps.prepare.outputs.latest_tag }}

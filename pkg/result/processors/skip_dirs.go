@@ -118,7 +118,7 @@ func (p *SkipDirs) shouldPassIssueDirs(issueRelDir, issueAbsDir string) bool {
 	// work dir path of directory of source file with the issue. It can lead
 	// to unexpected behavior if we're analyzing files out of current work dir.
 	// The alternative solution is to find relative to args path, but it has
-	// disadvantages (https://github.com/golangci/golangci-lint/pull/313).
+	// disadvantages (https://github.com/kunwardeep/golangci-lint/pull/313).
 
 	for _, pattern := range p.patterns {
 		if pattern.MatchString(issueRelDir) {
